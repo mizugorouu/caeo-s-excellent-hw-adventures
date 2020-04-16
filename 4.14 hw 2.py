@@ -13,7 +13,7 @@ while check:
         percentage = float(percentage)
         break
     except ValueError:
-        print("Your input \"{}\" is not a number. Try again. \n".format(percentage))
+        print("Your input \"{}f\" is not a number. Try again. \n".format(percentage))
         continue
 
 # inputs number of absent days, integer
